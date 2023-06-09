@@ -34,7 +34,7 @@ ext {
     PUBLISH_ARTIFACT_ID = 'simple-android-bridge'
 }
 
-apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
+//apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
